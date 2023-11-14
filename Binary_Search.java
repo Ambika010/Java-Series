@@ -1,3 +1,4 @@
+// This is a binary search program without recursion
 import java.util.*;
 public class Binary_Search {
     public static int binarySearch(int arr[],int key){
