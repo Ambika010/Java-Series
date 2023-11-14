@@ -20,7 +20,7 @@ public class LinearSearchStringArray {
         System.out.print("Enter the element to search : ");
         String x=sc.next();
         int index = linearSearchInString(arr, x);
-        if(in==-1){
+        if(index == -1){
             System.out.println("element is not present in the array");
         }else{
             System.out.println("Element found at index : "+index);
