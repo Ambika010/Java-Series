@@ -1,4 +1,4 @@
-// This is a binary search program without recursion
+// This is a binary search program without using the concept of recursion
 import java.util.*;
 public class Binary_Search {
     public static int binarySearch(int arr[],int key){
@@ -7,15 +7,14 @@ public class Binary_Search {
         int end = x-1;
         while(start<=end){
             int mid = (start+end)/2;
-            if(arr[mid] == key){
+            if(arr[mid] == key){ //at a point of time this condition will be true (when there will be only that element left which is to be searched and that element alone will be start=end=mid)
                 return mid;
             }
             if(arr[mid]>key){
-                end = mid-1;
-
+                end = mid-1; //this updates the end as the first half(start remains the same) needs to be checked to search the element
             }
             else{
-                start = mid+1;
+                start = mid+1; //this updates the start as the second half(end remains the same) needs to be checked to search the element
             }
         }
         return -1;
