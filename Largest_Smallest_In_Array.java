@@ -24,7 +24,6 @@ public class Largest_Smallest_In_Array {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size of array : ");
         int size=sc.nextInt();
-        sc.nextLine();
         int array[]=new int[size];
         System.out.println("Enter the elements of array : ");
         for(int i=0;i<size;i++){
