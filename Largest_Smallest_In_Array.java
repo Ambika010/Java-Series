@@ -9,7 +9,6 @@ public class Largest_Smallest_In_Array {
         }
         return largest;
     }
-
     public static int getSmallest(int array[]){
         int smallest=Integer.MAX_VALUE; // +infinity or the largest value in the range of integers in java
         for(int i=0;i<array.length;i++){
@@ -19,7 +18,6 @@ public class Largest_Smallest_In_Array {
         }
         return smallest;
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size of array : ");
