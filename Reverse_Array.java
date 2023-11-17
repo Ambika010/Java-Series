@@ -26,5 +26,6 @@ public class Reverse_Array {
         }
         System.out.println("Reversed array : ");
         reverseArray(array);
+        System.out.println();
     }
 }
