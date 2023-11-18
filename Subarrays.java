@@ -24,7 +24,7 @@ public class Subarrays{
         }
         System.out.println("All possible subarrays : ");
         printSubarrays(array);
-        int total_subarrays = (size*(size+1))/2;
-        System.out.println("total subarrays : "+total_subarrays);
+        //int total_subarrays = (size*(size+1))/2;
+        //System.out.println("total subarrays : "+total_subarrays);
     }
 }
