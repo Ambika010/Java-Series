@@ -13,8 +13,8 @@ public class Subarrays{
                 System.out.println();
             }
             System.out.println();
-            System.out.println("Total Subarrays : "+ts);
         }
+        System.out.println("Total Subarrays : "+ts);
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
