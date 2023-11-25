@@ -7,6 +7,7 @@ public class Largest_Smallest_In_Array {
                 largest=array[i];
             }
         }
+        
         return largest;
     }
     public static int getSmallest(int array[]){
