@@ -7,8 +7,7 @@ public class Largest_Smallest_In_Array {
                 largest=array[i];
             }
         }
-        
-        return largest;
+                return largest;
     }
     public static int getSmallest(int array[]){
         int smallest=Integer.MAX_VALUE; // +infinity or the largest value in the range of integers in java
