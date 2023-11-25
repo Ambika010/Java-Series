@@ -6,7 +6,8 @@ public class Linear_Search {
                 return i;
             }
         }
-        return -1; // -1 is returned in case when element is not found in the array
+        return -1; 
+        // -1 is returned in case when element is not found in the array
     }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
