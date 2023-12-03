@@ -1,6 +1,7 @@
 import java.util.*;
 public class All_Pairs_in_Array {
     public static void arrayPairs(int arr[]){
+        
         int tp=0;
         for(int i=0;i<arr.length;i++){ //this loop iterates from 0 to n-1
             int current = arr[i];
