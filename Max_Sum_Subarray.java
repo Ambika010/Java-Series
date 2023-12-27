@@ -1,7 +1,6 @@
 import java.util.*;
 public class Max_Sum_Subarray{
     public static void printSubarrays(int arr[]){
-        int ts=0;
         int maxSum = Integer.MIN_VALUE;
         for(int i=0;i<arr.length;i++){
             int start = i;
@@ -11,7 +10,6 @@ public class Max_Sum_Subarray{
                 for(int k=start;k<=end;k++){ //calculate the sum of subarrays
                     sum=sum+arr[k];
                 }
-                ts++;
                 System.out.print("Sum = "+sum);
                 System.out.println();
                 if(maxSum<sum){ //compares each sum and prints the maximum out of it
