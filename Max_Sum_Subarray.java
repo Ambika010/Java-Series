@@ -8,7 +8,7 @@ public class Max_Sum_Subarray{
             for(int j=i;j<arr.length;j++){
                 int end = j;
                 int sum=0;
-                for(int k=start;k<=end;k++){
+                for(int k=start;k<=end;k++){ //calculate the sum of subarrays
                     sum=sum+arr[k];
                 }
                 ts++;
