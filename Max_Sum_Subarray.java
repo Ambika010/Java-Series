@@ -14,13 +14,12 @@ public class Max_Sum_Subarray{
                 ts++;
                 System.out.print("Sum = "+sum);
                 System.out.println();
-                if(maxSum<sum){
+                if(maxSum<sum){ //compares each sum and prints the maximum out of it
                     maxSum=sum;
                 }
             }
             System.out.println();
         }
-        System.out.println("Total Subarrays : "+ts);
         System.out.println("Maximum Sum = "+maxSum);
     }
     public static void main(String[] args) {
