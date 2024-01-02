@@ -1,3 +1,4 @@
+
 import java.util.*;
 public class Character_case {
     public static void main(String[] args){
