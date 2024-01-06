@@ -1,3 +1,4 @@
+
 import java.util.*;
 class check_num_sequence{
     public static void main(String[] args) {
