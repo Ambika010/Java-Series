@@ -1,3 +1,4 @@
+//Brute force approach
 import java.util.*;
 public class Max_Sum_Subarray{
     public static void printSubarrays(int arr[]){
