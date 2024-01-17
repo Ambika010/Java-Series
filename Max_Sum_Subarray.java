@@ -29,7 +29,7 @@ public class Max_Sum_Subarray{
         for(int i=0;i<size;i++){
             array[i]=sc.nextInt();
         }
-        System.out.println("All possible subarrays : ");
+        System.out.println("Sum of all possible subarrays : ");
         printSubarrays(array);
     }
 }
