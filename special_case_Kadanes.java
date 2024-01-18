@@ -15,7 +15,7 @@ public class special_case_Kadanes {
         if(allnegative){
             int min_element=arr[0];
             for(int i=0;i<arr.length;i++){
-                if(arr[i]>min_element){
+                if(arr[i]>min_element){ // Note: using ">" for negative numbers because we're looking for the "most positive" negative number.
                     min_element=arr[i];
                 }
             }
