@@ -1,3 +1,4 @@
+//gives solution for the special case of kadane's algorithm when the all the elements in the array are negative numbers
 import java.util.*;
 import java.lang.*;
 public class special_case_Kadanes {
@@ -5,7 +6,7 @@ public class special_case_Kadanes {
         int cur_sum=0;
         int maxSum = Integer.MIN_VALUE;
         boolean allnegative = true;
-        for(int i=0;i<arr.length;i++){
+        for(int i=0;i<arr.length;i++){ //this for loop checks whether all the array elements are negative numbers or not
             if(arr[i]>=0){
                 allnegative = false;
                 break;
