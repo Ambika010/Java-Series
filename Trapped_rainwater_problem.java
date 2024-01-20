@@ -4,13 +4,13 @@ public class Trapped_rainwater_problem {
     public static int trappedWater(int height[]){
         //calculate left max boundary
         int leftMax[] = new int[height.length];
-        leftMax[0]=height[0];
+        leftMax[0]=height[0]; //start from LHS
         for(int i=1;i<height.length;i++){
             leftMax[i] = Math.max(height[i], leftMax[i-1]);
         }
         //calculate right max boundary
         int rightMax[] = new int[height.length];
-        rightMax[height.length-1]=height[height.length-1];
+        rightMax[height.length-1]=height[height.length-1]; //start from RHS
         for(int i=height.length-2;i>=0;i--){
             rightMax[i] = Math.max(height[i], rightMax[i+1]);
         }
