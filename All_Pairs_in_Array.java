@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class All_Pairs_in_Array {
     public static void arrayPairs(int arr[]){
         int tp=0;
